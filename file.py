@@ -24,6 +24,7 @@ def main():
         x = input("your word?: ")
         if checkinput(x) == True:
             character(x)
+            break
 
 if __name__ == "__main__":
     main()
